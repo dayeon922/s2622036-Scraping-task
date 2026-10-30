@@ -7,7 +7,7 @@ from urllib.parse import urljoin, urlparse
 base_url = 'https://www.musashino-u.ac.jp'
 domain = urlparse(base_url).netloc
 
-MAX_PAGES = 1100       # 1000건 이상 모이도록 약간 여유
+MAX_PAGES = 3000       # 1000건 이상 모이도록 약간 여유
 SAVE_EVERY = 100
 SKIP_EXT = ('.pdf', '.jpg', '.jpeg', '.png', '.gif', '.zip',
             '.xlsx', '.xls', '.docx', '.doc', '.pptx', '.mp4', '.svg')
